@@ -1,0 +1,48 @@
+# ---- media -------------------------------------------------------------
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+
+# ---- working folders (keep the folders, not the contents) --------------
+clips/*
+!clips/.gitkeep
+work/*
+!work/.gitkeep
+shorts/*
+!shorts/.gitkeep
+
+# ---- secrets -----------------------------------------------------------
+.env
+.env.*
+*.key
+*.pem
+*_api_key*
+*apikey*
+*_token*
+secrets.*
+elevenlabs*.json
+voice/
+
+# ---- OS junk -----------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.Spotlight-V100
+.Trashes
+
+# ---- python ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
