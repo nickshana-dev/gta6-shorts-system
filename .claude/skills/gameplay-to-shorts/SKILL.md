@@ -39,7 +39,7 @@ Pre-download the model so the final pass doesn't stall:
 python -c "from faster_whisper import WhisperModel; WhisperModel('base.en', device='cpu', compute_type='int8')"
 ```
 
-**Fonts:** check that `[YOUR CAPTION FONT]` is installed (Windows: `C:\Windows\Fonts` and
+**Fonts:** check that the caption font (CLAUDE.md style defaults) is installed (Windows: `C:\Windows\Fonts` and
 `%LOCALAPPDATA%\Microsoft\Windows\Fonts`; macOS: `/Library/Fonts` and `~/Library/Fonts`).
 If it isn't, **ask which font to install** — don't silently fall back to Arial.
 
@@ -190,11 +190,11 @@ risks. **Wait for approval before cutting.**
 
 Write only what the footage shows. Format in `templates/script-template.md`.
 
-**Voice direction:** `[YOUR VOICE STYLE]` — e.g. a neutral, conversational narrator, dry and
+**Voice direction:** the voice style in CLAUDE.md — by default a neutral, conversational narrator, dry and
 understated, like a friend telling you what they just saw. Not a trailer announcer, not a tutorial.
 Slightly faster than default, with a real pause after the hook line.
 
-Generate each line separately, 2–3 takes each, so lines can be timed to cuts. Leave gaps so key
+Number every voice line. Ask the user to generate **each line separately** (2–3 takes if they like) and name the files `01.mp3`, `02.mp3`… in line order, so each can be timed to its cut. Leave gaps so key
 game sounds are heard clean. Aim for **~2.3–2.6 words per second of narrated time** — roughly
 60–80 words per 35 s Short. On dialogue-led Shorts the voiceover is much lighter: it only fills
 gaps where nobody is speaking.
@@ -226,7 +226,7 @@ without narration.
 3. **Audio:** the game is **never muted** under the voice. Voiceover about −21 LUFS, game ducked
    only ~−5 dB under voice spans with ~120 ms ramps. On dialogue-led Shorts the voiceover goes only
    in gaps and **never overlaps a spoken line** — assert this in code rather than checking by ear.
-4. **Captions** — `[YOUR CAPTION STYLE]`, font `[YOUR CAPTION FONT]`:
+4. **Captions** — style and font from CLAUDE.md (defaults or the user's preferences):
    - **Fixed positions in every video.** A headline at the top for the whole Short, every spoken
      line in the same lower slot (y≈1330).
    - **Small.** No stroked meme text, no per-line repositioning, no emojis.
