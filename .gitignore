@@ -46,3 +46,6 @@ __pycache__/
 .venv/
 venv/
 .ipynb_checkpoints/
+
+# Your saved fixes and choices (kept out of updates)
+preferences.md
