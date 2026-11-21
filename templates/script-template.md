@@ -42,7 +42,7 @@ One or two plain lines. Never overstate the result.
 `#Hashtag1 #Hashtag2 #Shorts #…`
 
 ## Notes for the voice
-`[YOUR VOICE STYLE]`. Word count and target duration (aim ~2.3–2.6 words per second of narrated
+Voice style from CLAUDE.md. Number every line (01, 02…) — the user generates each one as its own file. Word count and target duration (aim ~2.3–2.6 words per second of narrated
 time). Mark deliberate silences — they are part of the edit, not gaps to fill. Call out any line
 whose delivery matters (a rising pitch that completes into the next line, a throwaway last line).
 
