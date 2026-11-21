@@ -38,7 +38,7 @@ capture, on console or PC.
 **1. Get the repo**
 
 ```
-git clone https://github.com/<your-username>/gta6-shorts-system.git
+git clone https://github.com/nickshana-dev/gta6-shorts-system.git
 cd gta6-shorts-system
 ```
 
